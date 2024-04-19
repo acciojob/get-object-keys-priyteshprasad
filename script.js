@@ -5,4 +5,4 @@ let student = {
 student.prototype.getKeys = function(){
 	return Object.keys(this)
 }
-alert(student.getKeys())
+// alert(student.getKeys())
