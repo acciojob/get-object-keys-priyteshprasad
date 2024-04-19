@@ -1,8 +1,9 @@
 //your JS code here. If required.
 let student = {
-	name: "myName"
+	name: "myName",
+	age: 45
 }
-student.prototype.getKeys = function(){
+Object.prototype.getKeys = function(){
 	return Object.keys(this)
 }
-// alert(student.getKeys())
+// alert( student) 
